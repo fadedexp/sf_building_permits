@@ -37,6 +37,7 @@ with st.sidebar:
 
 
 
+st.dataframe(df, hide_index=True)
 
     
 data = df[(df['Permit Creation Year'] > range_year[0])&(df['Permit Creation Year'] < range_year[1])]
@@ -125,5 +126,3 @@ st.pyplot(fig)
 # ax.set_ylabel('Qavatlar soni')
 # ax.set_xlabel('Yil')
 
-
-# st.dataframe(df, hide_index=True)
