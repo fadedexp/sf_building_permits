@@ -76,6 +76,17 @@ st.pyplot(fig)
 
 
 
+# current status
+sizes = [414418, 416650-414418]
+labels = ['Complete', 'Others']
+fig, ax = plt.subplots()
+plt.pie(sizes, labels=labels, autopct='%1.1f%%')
+ax.set_title('Ruhsatnomalarni holati')
+st.pyplot(fig)
+
+
+
+
 # Har bir yilga ruhsatnomalar soni (hist)
 sBins = st.select_slider(
     'Histplot bins',
