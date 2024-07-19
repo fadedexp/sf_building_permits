@@ -6,7 +6,7 @@ import seaborn as sns
 
 st.write("""
 # Building and Housing
-Bu ma'lumotlar AQSH ning San-Fransisko shtatida qurilish va ta'mirlash ishlari uchun berilgan **ruhsatnomalar**
+Bu yerda AQSH ning San-Fransisko shtatida qurilish va ta'mirlash ishlari uchun ruhsatnomalar berilgan
 
 | Ruhsatnoma turi    | Soni |
 | -------- | ------- |
