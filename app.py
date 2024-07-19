@@ -113,6 +113,15 @@ st.pyplot(fig)
 
 
 
+
+fig, ax = plt.subplots()
+sns.lineplot(x='Permit Creation Year', y='Number of Existing Stories', data=df, ax=ax)
+ax.set_ylabel('Qavatlar soni')
+ax.set_xlabel('Yil')
+st.pyplot(fig)
+
+
+
 # pie chart okruglar uchun
 dct = df[df['Supervisor District'] != 'Missing']['Supervisor District'].value_counts().to_dict()
 pieSizes = list(dct.values())
